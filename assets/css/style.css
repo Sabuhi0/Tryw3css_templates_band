@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: MacklinDisplayLight;
+    src: url(../fonts/S6uyw4BMUTPHjx4wXg.woff2) format("woff2"), url(../fonts/S6uyw4BMUTPHjx4wXg.woff2) format("woff");
+    font-display: swap
+}
+
+
+/*Header part of*/
+
+.header {
+    padding: 15px;
+    background-color: #000000;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-family: "MacklinDisplayLight";
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.menu:not(:first-child) {
+    padding-left: 40px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    color: white;
+}
